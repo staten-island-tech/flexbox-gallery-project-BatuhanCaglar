@@ -14,8 +14,7 @@ html,
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: ;
-    background-size: ;
+    background-image: url(sr25d63210fc213.webp);
 }
 
 .card-img{
@@ -28,4 +27,7 @@ html,
     margin-top: 1.2 rem;
 }
 
-.card-price
+
+body{
+    background-image: url(bryan-heemskerk-eldenringfinal.gif) ;
+}
