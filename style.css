@@ -21,15 +21,16 @@ h2 {
     font-family: "Handjet", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
-    font-size: 5rem;
+    font-size: 3.5vw;
     color: darkslateblue;
     margin-top: 2rem;
+    margin-bottom: 10rem;
 }
 
 
 .container{
-    width: 80vw;
-    height: 40vw;
+    width: 85vw;
+    height: 50vw;
     display: flex;
     font-size: 2rem;
     flex-direction: row;
@@ -45,7 +46,7 @@ h2 {
     border: solid brown;
     border-width: 1rem;
     width: 28%;
-    height: 50%;
+    height: 50rem;
     padding: 2rem;
 
 }
