@@ -23,8 +23,8 @@ h2 {
     text-align: center;
     font-size: 3.5vw;
     color: darkslateblue;
-    margin-top: 2rem;
-    margin-bottom: 10rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 
@@ -36,7 +36,8 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 15rem;
+    margin: 12.5rem;
+    flex-wrap: wrap;
 }
 
 
@@ -45,12 +46,19 @@ h2 {
     border-radius: 4rem;
     border: solid brown;
     border-width: 1rem;
-    width: 28%;
-    height: 50rem;
-    padding: 2rem;
+    width: 26%;
+    height: 26%;
+    padding: 12vw;
+    margin: 12vw;
+    align-items: center;
+
 
 }
 
+img {
+    width: 3rem;
+    margin: 5%;
+}
 
 
 
