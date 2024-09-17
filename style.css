@@ -21,7 +21,7 @@ h2 {
     font-family: "Handjet", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 3.5rem ;
     color: darkslateblue;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -30,13 +30,13 @@ h2 {
 
 .container{
     width: 85vw;
-    height: 50vw;
+    height: 85vw;
     display: flex;
     font-size: 2rem;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     margin: 12.5rem;
+    margin-top: 5rem;
     flex-wrap: wrap;
 }
 
@@ -48,17 +48,16 @@ h2 {
     border-width: 1rem;
     width: 26%;
     height: 26%;
-    padding: 12vw;
-    margin: 12vw;
-    align-items: center;
-
-
+    margin-top: 5rem;
 }
 
 img {
-    width: 3rem;
-    margin: 5%;
+    width: 75%;
+    margin-left: 5rem;
+    object-fit: cover;
+    margin-top: 1.5rem;
 }
+
 
 
 
