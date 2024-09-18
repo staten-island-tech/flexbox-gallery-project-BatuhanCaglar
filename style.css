@@ -30,8 +30,7 @@ h2 {
 
 .container{
     width: 85vw;
-    height: 100vw;
-
+    height: 85vw;
     font-size: 2rem;    
     margin: 12.5rem;
     margin-top: 5rem;
@@ -47,13 +46,14 @@ h2 {
     border-radius: 4rem;
     border: solid brown;
     border-width: 1.5rem;
-    width: 26%;
-    height: 26%;
+    width: 30%;
+    height: 40%;
     flex-shrink: 0;
     min-width: 25rem;
     min-height: 30rem;    
     margin-top: 5rem;
     align-items: center;
+    text-align: center;
 }
 
 img {
@@ -63,16 +63,29 @@ img {
     display: block;
     margin: 0 auto;
     margin-top: 5rem;
+    border-radius: 5rem;
 }
 
 
-.boss {
-    width: 75%;
-    height: 80%;
-    object-fit: contain;
+
+
+button{
+    border-radius: 0.5rem;
+    background-color: slateblue;
     display: block;
-    margin: 0 auto;
-    margin-top: 5rem;
-    border-radius: 4rem;
+    text-align: center;
+
+
 }
+
+a{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+
 
