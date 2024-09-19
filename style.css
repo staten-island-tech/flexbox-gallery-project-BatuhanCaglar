@@ -72,20 +72,19 @@ img {
 button{
     border-radius: 0.5rem;
     background-color: slateblue;
-    display: block;
     text-align: center;
-
-
+    display: block;
 }
 
 a{
     font-family: "Rajdhani", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     color: aliceblue;
     text-align: center;
 }
 
-
-
+.link-container{
+    
+}
