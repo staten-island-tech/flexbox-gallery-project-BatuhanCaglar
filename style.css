@@ -57,18 +57,40 @@ h2 {
     margin-top: 5rem;
     align-items: center;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 img {
-    width: 75%;
+    width: 70%;
     height: auto;
     object-fit: contain;
     display: block;
     margin: 0 auto;
     margin-top: 5rem;
-    border-radius: 5rem;
+    border-radius: 7rem;
 }
 
+img:hover {
+    animation: rotateScale 3s ease-in-out infinite;
+}
+
+@keyframes rotateScale {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.35) rotate(48deg);
+    }
+    50% {
+        transform: scale(1.25) rotate(-48deg);
+    }
+    75% {
+        transform: scale(1.35) rotate(48deg);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 button{
     border-radius: 0.5rem;
     background-color: slateblue;
@@ -76,6 +98,7 @@ button{
     display: block;
     margin-left: 30%;
     margin-right: 30%;
+    margin-top: 3%;
 }
 
 button:hover{
@@ -94,6 +117,12 @@ button:hover{
   transition-duration: 0.2s;
   background-color: gold;
   transform: scaleY(1.2);
+}
+
+.armor:hover{
+    transition-duration: 0.2s;
+    background-color: rgb(75, 21, 151);
+    transform: scaleX(1.2);
 }
 
 a{
